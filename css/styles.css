@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body .title {
+    display: flex;                  /* Activar flexbox */
+    justify-content: center;        /* Centra el contenido horizontalmente */
+    align-items: center;            /* Centra el contenido verticalmente */
+    text-align: center;             
+    background-color: rgb(86, 223, 127);
+    height: 60px;
+}
+
+body {
+    font-family: Dynalight;
+    background-color: rgb(116, 252, 156);
+}
+.img{
+    display: flex;
+    width: 100vw;
+    height: 100px;
+}
+.imagen{
+    text-align: center;
+}
+.conteiner-B{
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    height: 100px;
+}
