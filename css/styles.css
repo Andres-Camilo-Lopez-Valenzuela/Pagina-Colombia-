@@ -12,21 +12,33 @@ body .title {
     height: 60px;
 }
 
+p {
+    font-family:sans-serif;
+    letter-spacing: 1px;
+    padding: 10px;
+    width: auto;
+}
+
 body {
     font-family: Dynalight;
-    background-color: rgb(116, 252, 156);
+    background-color: rgb(147, 247, 177);
 }
 .img{
+    
     display: flex;
     width: 100vw;
     height: 100px;
 }
 .imagen{
+    padding: 20px 20px;
+    border: 1px solid black;
     text-align: center;
+    border: 1px solid black;
 }
 .conteiner-B{
+
     display: flex;
     background-color: white;
-    border-radius: 10px;
     height: 100px;
+    padding: 10px 10px;
 }
