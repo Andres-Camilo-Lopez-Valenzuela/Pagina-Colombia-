@@ -45,7 +45,16 @@ iframe {
     width: auto;
     font-size: 25px;
     background-color: white;
-    border: 2px solid black;
+    border: 0px solid black;
     padding: 10px;
     margin: 10px;
+    text-align: center;
+}
+.data .list{
+
+    display: flex;
+    flex-direction: column
+}
+.lago{
+    justify-content: center;
 }
